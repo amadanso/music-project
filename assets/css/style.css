@@ -1,5 +1,5 @@
 .body{
-    background-image: cover;
+    background: cover;
     background-position: center;
     font-family: 'lobster', cursive;
     color: black;
@@ -19,21 +19,6 @@
 .h1{
     font-weight: 500;
     font-size: 5em;
-}
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-}
-
-.social-links li a i:hover{
-    background:#e84610;
 }
 .section-heading{
     font-weight: 300;
