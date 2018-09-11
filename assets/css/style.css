@@ -1,8 +1,9 @@
 .body{
+    background: url(../images/monkees.jpg);
     background: cover;
     background-position: center;
     font-family: 'lobster', cursive;
-    color: black;
+    color: #fff;
 }
 .html{
     height: 100%;
@@ -10,6 +11,7 @@
 #content{
     text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+    color: #fff;
 }
 .img{
     padding-top: 10px;
@@ -43,4 +45,16 @@ button[type="submit"]{
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+}
+.navbar{
+    position: relative;
+    min-height: 10px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+}
+.navbar-fixed-bottom {
+    margin-bottom: 0px;
 }
