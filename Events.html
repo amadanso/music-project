@@ -7,45 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+ <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html">The Monkees!</a>
+     <a class="navbar-brand" href="index.html">The Monkees!</a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  
+  <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About Us.html">About Us</a></li>
-        <li><a href="Contact Us.html">Contact Us</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
- <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div id="content">
-          <h1>The Monkees</h1>
-          <h2>1950 RockBand</h2>
-        </div>
-      </div>
-    </div>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="About Us.html">About us</a></li>
+      <li><a href="Events.html">Events</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Album Cover<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="assets/images/album.jpg">Album 1 </a></li>
+          <li><a href="assets/images/album2.jpg">Album 2 </a></li>
+          <li><a href="assets/images/cover2.png">Album 3 </a></li>
+        </ul>
+        <li><a href="Connect.html">Connect</a></li>
+        <li><a href="#contact" data-toggle=modal>Contact Us</a></li>
+      </li>
+    </ul>
   </div>
-  <section class="container-fluid">
-            <div class="row bg-color-contact">
+</nav>
+<div class="modal fade" id="contact" role="dialog">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h4>contact</h4>
+       </div>
+       <div class="modal-body">
+         <p>For general enquiries please email themonkee@rockband.com</p>
+       </div>
+       <div class="modal-footer">
+         <a class="btn btn-primary" data-dismiss="modal">Close</a>
+       </div>
+     </div>
+   </div>
+  </div>
+    <div class="row bg-color-contact">
                 <div>
                 <h3 class="contact-heading uppercase text-center">Got an event mind?</h3>
                 <h5 class="uppercase text-center">let's work together</h5>
@@ -59,20 +68,7 @@
                 </form>
             </div>
             </div>
-        </section>
-     <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-     <div class="container">
-       <div class="navbar-text pull-left">
-         <p>Ama Danso</p>
-       </div>
-       <div class="navbar-text pull-right">
-         <a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
-         <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-         <a href="#"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
-         
-       </div>
-     </div>
-   </div>
+    
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"
   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   crossorigin="anonymous"></script>  

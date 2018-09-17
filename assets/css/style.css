@@ -1,35 +1,91 @@
-.body{
-    background: url(../images/monkees.jpg);
-    background: cover;
-    background-position: center;
-    font-family: 'lobster', cursive;
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,600');
+.html {
+    width: 100%;
+}
+
+.body {
+    font-family: 'caveat',cursive;
+    font-size: 200%;
+    color:#000;
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 1px solid #777;
+}
+
+.navbar-brand {
+    min-height: 40px;
+}
+
+.navbar-inverse .navbar-nav l1 a:hover {
     color: #fff;
 }
-.html{
-    height: 100%;
+
+.navbar-inverse .navbar-toggle {
+    border-color: #777;
 }
-#content{
-    text-align: center;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
-    color: #fff;
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: #000;
 }
-.img{
-    padding-top: 10px;
+
+.img.banner{
+    width: 100%;
+}
+
+.img {
     margin: 0 auto;
-    max-width: 70%;
 }
-.h1{
-    font-weight: 500;
-    font-size: 5em;
+
+#icon {
+    max-height: 200px;
+    margin: 1% auto;
 }
-.section-heading{
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px
+
+.connect{
+    font-size: 500%;
 }
+
+.connect a {
+    padding: 3%;
+    color: #fff;
+}
+
+#home {
+    padding-top: 60px;
+    max-width: 100%;
+}
+
+.background-container {
+    height: 100vh;
+    
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.text-center{
+    font-family: caveat;
+    font-size: 40px;
+    text-align: center;
+    color: #080808;
+    padding-top: 60px;
+}
+
 .contact-heading{
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
+    font-family: 'caveat',cursive;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 20px;
 }
@@ -46,15 +102,11 @@ button[type="submit"]{
     background-color: #e84610;
     color: #fafafa;
 }
-.navbar{
-    position: relative;
-    min-height: 10px;
-    margin-bottom: 15px;
-    border: 1px solid transparent;
+
+.col-md-9 {
+    width: 75%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
 }
-.navbar-default {
-    background-color: #f8f8f8;
-}
-.navbar-fixed-bottom {
-    margin-bottom: 0px;
-}
+
