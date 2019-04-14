@@ -30,12 +30,14 @@
     background-color: #000;
 }
 
-.img.banner{
+.img.banner {
     width: 100%;
 }
 
 .img {
-    margin: 0 auto;
+    vertical-align: middle;
+    padding-left: 600px;
+    padding-top: 75px;
 }
 
 #icon {
@@ -45,6 +47,11 @@
 
 .connect{
     font-size: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -175px;
 }
 
 .connect a {
@@ -96,7 +103,7 @@
     max-width: 70%;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
@@ -109,4 +116,6 @@ button[type="submit"]{
     font-style: italic;
     font-weight: 400;
 }
+
+
 
