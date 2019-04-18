@@ -1,121 +1,161 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat:400,600');
-.html {
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.body {
-    font-family: 'caveat',cursive;
-    font-size: 200%;
-    color:#000;
+/*---------NavigationBar-------*/
+
+#navbar {
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff;
 }
 
 .navbar {
-    background-color: #000;
-    border-bottom: 1px solid #777;
+    background-color: #fff;
 }
 
-.navbar-brand {
-    min-height: 40px;
+.navbar-toggler {
+    border: none;
 }
 
-.navbar-inverse .navbar-nav l1 a:hover {
-    color: #fff;
+.nav-link {
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
 }
-
-.navbar-inverse .navbar-toggle {
-    border-color: #777;
-}
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-    background-color: #000;
-}
-
-.img.banner {
+/*-------Slider-------*/
+#slider {
     width: 100%;
 }
 
-.img {
-    vertical-align: middle;
-    padding-left: 600px;
-    padding-top: 75px;
-}
-
-#icon {
-    max-height: 200px;
-    margin: 1% auto;
-}
-
-.connect{
-    font-size: 500%;
-    position: absolute;
+.carousel-caption {
     top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: -175px;
+    transform: translateY(-50%);
+    bottom: initial;
 }
 
-.connect a {
-    padding: 3%;
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 35px;
+}
+/*------------About--------*/
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.about-content {
+    padding-top: 20px;
+}
+/*--------------wiki------------*/
+#wikipedia {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 70px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/*---------------------Event--------------*/
+#events {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/cover1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+#events h1 {
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+}
+
+#events h1:: after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.events{
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.events p {
+    font-size: 35px;
+    margin-top: auto;
     color: #fff;
 }
-
-#home {
-    padding-top: 60px;
-    max-width: 100%;
+/*----------------Get in Touch------------*/
+#contact {
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
 }
-
-.background-container {
-    height: 100vh;
-    
-    background: url("../images/monkees.jpg") no-repeat center center fixed;
-    background-size: cover;
-    
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact-form {
+    padding: 15px;
 }
-
-.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
+.form-control {
+    border-radius: 0;
+    border: none;
 }
-
-.text-center{
-    font-family: caveat;
-    font-size: 40px;
-    text-align: center;
-    color: #080808;
-    padding-top: 60px;
+::placeholder {
+    color: #999;
 }
-
-.contact-heading{
-    font-family: 'caveat',cursive;
-    font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 20px;
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
 }
-
-.center-form{
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+.contact-info .fa {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
 }
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #e84610;
-    color: #fafafa;
+/*----------------Footer-------------------*/
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 12px;
 }
-
-.col-md-9 {
-    width: 75%;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
+.fa-heart-o {
+    margin: 3px;
+    color: red;
 }
-
 
 
