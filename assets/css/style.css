@@ -52,11 +52,22 @@
     color: #fff;
     font-size: 35px;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
 /*------------About--------*/
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+    background-color: #efefef
 }
 
 #about .btn {
@@ -66,6 +77,10 @@
 
 .about-content {
     padding-top: 20px;
+}
+.about-img {
+    margin-bottom: 10px;
+    
 }
 /*--------------wiki------------*/
 #wikipedia {
@@ -157,5 +172,40 @@
     margin: 3px;
     color: red;
 }
+/*--------------- Music-----------*/
+#music {
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.media {
+  align-items: flex-start;
+  display: table;
+}
+
+.media-body {
+  flex: 1;
+}
+.video-media{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 20px;
+}
+
+@media(min-width:900px){
+    .video-media{
+        height: 470px;
+    }
+}
+
+.audio-content{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+
+ 
 
 
