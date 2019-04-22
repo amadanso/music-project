@@ -53,7 +53,7 @@ Features
 Existing Features
 
 Navbar at top of screen.
-The navbar is not in a position, since the links scroll the existing page as opposed to opening new ones. It has the  functionality to become a dropdown on smaller screen sizes.
+The navbar is not in a fixed position, since the links scroll to the existing page as opposed to opening new ones. It has the  functionality to become a dropdown on smaller screen sizes.
 
 Smooth scroll JavaScript
 Added to allow smooth scrolling on links to section of the page across all browsers.
@@ -66,12 +66,11 @@ Our Music
 This section uses iframe tags for a video from youtube as the band requested I put on their site. Along with a list of Top 10 Songs.
 
 Booking section
-Their are two forms in this section as not everyone will be looking to book The Monkees for a wedding, christmas party or festival. 
+There are a forms in this section as not everyone will be looking to book The Monkees for a wedding, christmas party or festival etc, also you are able to get in touch with the band if you wish to do so.
 
 Fontawesome icons
 
 The use of fontawesome icons was made to add a positive user experience by reinforcing what the different sections they are associated with are for (bookings, icons, etc.)
-Features Left to Implement
 
 Social Media icons of the band. 
 
